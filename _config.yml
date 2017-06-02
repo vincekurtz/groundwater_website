@@ -1,0 +1,4 @@
+name: Goshen Groundwater Research
+description: Website for the physics groundwater research group at Goshen College
+#paginate: 10
+baseurl: '/gcgroundwater'
