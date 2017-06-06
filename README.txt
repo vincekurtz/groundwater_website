@@ -1,3 +1,19 @@
+Source code for the groundwater website is located in /home/stu_phys/groundwater_website.
+
+This is compiled with `jekyll build`. Compiled code goes automatically to the
+live website, which is located at /home/groundwater/mypages/ (simlinked to
+/home/stu_phys/myGW/). 
+
+Don't try to modify the code on the live website: it will get overwritten.
+Instead, the workflow should be as follows:
+    - modify source code in /home/stu_phys/groundwater_website
+    - run jekyll build
+    - observe changes on the live site at
+      http://people.goshen.edu/~groundwater
+
+
+
+----------------------- Theme Info ---------------------------------------
 Arcana by HTML5 UP
 html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
