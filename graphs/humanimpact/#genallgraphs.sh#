@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+start=$1
+end=$2
+
+for i in {-180..179}
+do
+    for j in {-90..89}
+    do
+	ii=$(echo $i + 0.5 | bc)
+	jj=$(echo $j + 0.5 | bc)
+	./gengraph.gpl $ii $jj $start $end
+	echo "Just did $ii $jj\n"
+    done
+done
